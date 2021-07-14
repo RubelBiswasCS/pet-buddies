@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+.main-header{
+
+}
+.footer{
+
+}
+.main{
+    min-height: 200vh;
+    background-color: rgb(24, 175, 125);
+}
+h1{
+    color:red;
+    background-color: seashell;
+}
+#about{
+    min-height: 100vh;
+    background-color: tan;
+    background-image: url("https://drive.google.com/uc?export=view&id=1uZNq9lsKtFx3Xaos8GLWEo0qbMoIbeC8");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
