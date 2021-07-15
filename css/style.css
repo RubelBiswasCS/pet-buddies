@@ -8,12 +8,10 @@
 .main-header{
 
 }
-.footer{
 
-}
 .main{
     min-height: 200vh;
-    background-color: rgb(24, 175, 125);
+    background-color: rgb(187, 204, 198);
 }
 h1,h3{
     text-align: center;
@@ -29,12 +27,6 @@ h1,h3{
     background-size: cover;
 }
 
-@media only screen and (max-width: 780px) {
-
-    #about{
-        background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/background-md.jpg");
-}
-}
 
  #about h1{
     color: white;
@@ -45,16 +37,89 @@ h1,h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
    
 }
 
 #services{
+    min-height: 100vh;
     padding: 50px;
 }
-
-.width30p{
+.services{
+   
+    flex-direction: column;
+    background-color: rgb(147, 214, 188);
+}
+.services-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 30%;
+    padding: 15px;
+    background-color: rgb(195, 224, 188);
+    margin: 15px;
+    box-shadow: 0 0 0 5px rgb(175, 192, 129);
+}
+#why-petlo{
+    min-height: 100vh;
+    padding: 50px;
+    background-color: rgb(98, 227, 230);
+}
+.wp-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 15px;
+    background-color: rgb(195, 224, 188);
+    margin: 15px;
+    box-shadow: 0 0 0 5px rgb(175, 192, 129);
+}
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 40vh;
+    background-color: rgb(9, 97, 85);
+}
+.width30p{
+    width: 75%;
     text-align: center;
-    margin: auto;
+    margin:auto;
+    /* background-color: darkcyan; */
 }
 
+/* .footer{
+    display: flex;
+    align-items: flex-end;
+
+    min-height: 50px;
+   
+    background-color: rgb(255, 210, 105);
+    border: 1px solid black;
+}
+*/
+.footer{
+    height: 50px;
+    background-color: cadetblue;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 780px) {
+
+    #about{
+        background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/background-md.jpg");
+}
+.services-block{
+    width: 90%;
+    
+}
+.wp-block{
+    width: 90%;
+    
+}
+}
