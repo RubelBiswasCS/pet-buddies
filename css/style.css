@@ -8,13 +8,21 @@
 .main-header{
 
 }
-
+.bg-light{
+      background-color: #008B8B !important;
+}
 .main{
     min-height: 200vh;
     background-color: rgb(187, 204, 198);
 }
 h1,h3{
     text-align: center;
+}
+a.navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 150%;
+    color: rgb(97, 25, 100);
+    
 }
 #about{
     min-height: 100vh;
@@ -55,11 +63,19 @@ h1,h3{
     flex-direction: column;
     align-items: center;
     width: 30%;
-    padding: 15px;
+    height: 30vh;
+    padding: 25px;
     background-color: rgb(195, 224, 188);
     margin: 15px;
-    box-shadow: 0 0 0 5px rgb(175, 192, 129);
+    /* box-shadow: 0 0 0 5px rgb(175, 192, 129); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
+
+.services-block h3{
+    font-size: 125%;
+}
+
+
 #why-petlo{
     min-height: 100vh;
     padding: 50px;
@@ -70,10 +86,12 @@ h1,h3{
     flex-direction: column;
     align-items: center;
     width: 30%;
-    padding: 15px;
+    padding: 25px;
     background-color: rgb(195, 224, 188);
     margin: 15px;
-    box-shadow: 0 0 0 5px rgb(175, 192, 129);
+    /* box-shadow: 0 0 0 5px rgb(175, 192, 129); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
 }
 #contact{
     display: flex;
@@ -104,25 +122,11 @@ h1,h3{
     height: 50px;
     background-color: cadetblue;
 }
-a{
+#contact a{
     text-align: center;
     text-decoration: none;
 }
 
-@media only screen and (max-width: 780px) {
-
-    #about{
-        background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/background-md.jpg");
-}
-.services-block{
-    width: 90%;
-    
-}
-.wp-block{
-    width: 90%;
-    
-}
-}
 
 
 ul{
@@ -167,3 +171,29 @@ li .s-logo{
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 780px) {
+
+    #about{
+        background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/background-md.jpg");
+}
+#services{
+    padding: 25px;
+}
+.services-block{
+    width: 95%;
+    height: auto;
+    
+
+    
+}
+.wp-block{
+    width: 95%;
+    
+    
+}
+.navbar-brand{
+    text-align: center;
+}
+}
+
