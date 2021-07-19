@@ -28,11 +28,11 @@ a.navbar-brand{
 #about{
     min-height: 100vh;
     background-color: rgb(98, 185, 185);
-    background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("https://drive.google.com/uc?export=view&id=1uZNq9lsKtFx3Xaos8GLWEo0qbMoIbeC8");
+    background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("https://drive.google.com/uc?export=view&id=1uZNq9lsKtFx3Xaos8GLWEo0qbMoIbeC8") ;
     /* background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/background01-lg.jpeg"); */
     background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/bg_01_resized_02.jpg");
     background-repeat: no-repeat;
-    
+    background: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/bg_01_resized_02.jpg") center center ;
     background-size: cover;
 }
 
@@ -85,7 +85,13 @@ a.navbar-brand{
 .services-block h3{
     font-size: 125%;
 }
-
+#contact h3{
+    font-size: 200%;
+}
+#ep-contact a{
+    color: black;
+    font-size: 125%;
+}
 
 #why-petlo{
     min-height: 100vh;
@@ -94,7 +100,7 @@ a.navbar-brand{
     text-align: justify;
     color: rgb(217, 249, 250);
     background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/background02-lg-min.jpeg");
-    
+    background-position: center center;
     background-repeat: no-repeat;
     
     background-size: cover;
