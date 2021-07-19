@@ -162,11 +162,15 @@ a.navbar-brand{
     padding: 10px;
     /* background-color: fuchsia; */
 }
-.social li{ 
+.social li{
+    list-style-type: none;
+    margin: 5px;
+}
+.social li a{ 
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5px;
+    /* margin: 5px; */
     box-sizing: border-box;
     width: 120px;
     height: 50px;
@@ -179,14 +183,7 @@ li:hover{
     border-radius: 10%;
     box-shadow: 0 0 0 4px grey;
 }
-.social li a{
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-   
-    height: auto;
 
-}
 
 li .s-logo{
     width:30px;
