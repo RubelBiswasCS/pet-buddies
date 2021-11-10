@@ -10,7 +10,14 @@
 }
 
 .bg-light{
-      background-color: #008B8B !important;
+      /* background-color: #008B8B !important; */
+      background-color: yellow !important;
+}
+.nav-link{
+    font-style: italic;
+    color:black !important;
+    
+    margin: 2px;
 }
 .main{
     min-height: 200vh;
@@ -30,10 +37,12 @@ a.navbar-brand{
     background-color: rgb(98, 185, 185);
     background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("https://drive.google.com/uc?export=view&id=1uZNq9lsKtFx3Xaos8GLWEo0qbMoIbeC8") ;
     /* background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/background01-lg.jpeg"); */
-    background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/bg_01_resized_02.jpg");
+    /* background-image: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/bg_01_resized_02.jpg"); */
     background-repeat: no-repeat;
-    background: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/bg_01_resized_02.jpg")  ;
+    /* Optimized-Background01-sm.jpg */
+    background: linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)), url("../images/bg1-hd.jpg")  ;
     background-size: cover;
+    background-position: center 30%;
     
 }
 
@@ -75,7 +84,6 @@ a.navbar-brand{
     width: 30%;
     height: 30vh;
     padding: 25px;
-    /* background-color: rgb(195, 224, 188); */
     /* background-color:linear-gradient(to bottom, rgba(18,42, 66, .50), rgba(18,42, 66, .5)); */
     
     margin: 15px;
@@ -261,41 +269,33 @@ li .s-logo{
 }
 
 @media only screen and (max-width:320px){
-    #about{
+    /* #about{
         background: cadetblue;
-    }
+    } */
 }
 
 @media only screen and (min-width:321px) and (max-width:360px){
-    #about{
+    /* #about{
         background: rgb(11, 127, 131);
-    }
+    } */
 }
 
 @media only screen and (min-width:361px) and (max-width:375px){
-    #about{
+    /* #about{
         background: rgb(241, 30, 118);
-    }
+    } */
 }
 @media only screen and (min-width:376px) and (max-width:480px){
-    #about{
-        background: rgb(13, 199, 13);
-    }
+    
 }
 @media only screen and (min-width:481px) and (max-width:600px){
-    #about{
-        background: rgb(183, 212, 17);
-    }
+  
 }
 @media only screen and (min-width:601px) and (max-width:768px){
-    #about{
-        background: rgb(62, 73, 14);
-    }
+    
 }
 @media only screen and (min-width:769px) and (max-width:900px){
-    #about{
-        background: rgb(24, 64, 173);
-    }
+    
     .services{
         height: auto;
     }
@@ -311,9 +311,9 @@ li .s-logo{
     }
 }
 @media only screen and (min-width:901px) and (max-width:1024px){
-    #about{
+    /* #about{
         background: rgb(173, 24, 36);
-    }
+    } */
     .services{
         height: auto;
     }
@@ -326,9 +326,9 @@ li .s-logo{
     }
 }
 @media only screen and (min-width:1025px) and (max-width:1200px){
-    #about{
+    /* #about{
         background: rgb(197, 175, 177);
-    }
+    } */
     .services{
         height: auto;
     }
@@ -340,9 +340,9 @@ li .s-logo{
         width: 45%;
     }
 }@media only screen and (min-width:1201px){
-    #about{
+    /* #about{
         background: rgb(23, 196, 124);
-    }
+    } */
     .services{
         height: auto;
     }
